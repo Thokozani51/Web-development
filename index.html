@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XodiaCreations</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo-box">
+            <img src="/Assets/images/zodiac_logo.jpg" alt="logo">
+        </div>
+    <nav div class="topnav" id="myTopnav">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="https://davidtlale.com/collections/david-tlale" alt="fashion collection">Images</a>
+            </li>
+
+        </ul>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>    
+</header>
+<section> 
+<div class="name">
+    <h1>XodiaCreations</h1>
+</div>
+<div class="flex-container">
+    <div class="column">
+        <img class="picture-dress" src="/Assets/images/african_dress1.jpg" alt="first design">
+        <h5>African Elegancy R4500</h5>
+    </div>
+    
+    <div class="column">
+        <img class="picture-dress" src="/Assets/images/african_dress2.jpg" alt="second design">
+        <h5>Wilderness R5000</h5>
+    </div>
+    <div class="column">
+        <img class="picture-dress" src="/Assets/images/afrrican_dress3.jpg" alt="third design">
+        <h5>Sexy queen R5000.00</h5>
+    </div>   
+</div>
+</section>
+<!--<section>-->
+   <!-- <div class="container">-->
+ <!--   <div class="column1">
+        <h5>African Elegancy R1500.00</h5>
+    </div>
+    <div class="column1">
+        <h5>Wilderness R5000.00</h5>
+    </div>
+</div>-->
+</section> 
+<script>
+    function myFunction(){
+        let x=document.getElementById(myTopnav);
+        if(x.className==="topnav"){
+            x.className += "responsive";
+        }else{
+            x.className==="topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
